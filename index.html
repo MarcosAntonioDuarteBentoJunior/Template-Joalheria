@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- SEO TAGS -->
+        <meta name="author" content="Marcos Junior">
+        <meta name="description" content="Template de Joalheria" />
+        <meta name="keywords" content="loja, joalheria, presentes"/>
+        <meta name="robots" content="index, follow">
+        <meta http-equiv="cache-control" content="no-cache" />
+        
+        <!-- TITULO -->
+        <title>Cristal Joalheria</title>
+
+        <!-- BOOTSTRAP CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- BOOTSTRAP ICONS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+        <!-- ANIMATE CSS -->
+        <link rel="stylesheet" href="css/animate/animate.min.css">
+        <!-- IMAGE-ZOOM CSS -->
+        <link rel="stylesheet" href="/click-tap-image/dist/css/image-zoom.css">
+        <!-- CSS PROPRIO -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- FAVICON -->
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <header>
+            <section id="topnav">
+                <div class="container py-3 py-md-0 wow animate__animated animate__fadeInLeft">
+                    <div class="row text-center text-white">
+                        <div class="col-md-4 align-self-center d-none d-md-flex">
+                            <img src="img/logo.jpg" alt="">
+                        </div>
+                        <div class="col-md-4 align-sel-center d-none d-lg-flex py-2">
+                            <form action="#!">
+                                <div class="form-floating">
+                                    <input type="text" id="busca" class="form-control" placeholder="Digite o que procura">
+                                    <label for="busca">Digite o que procura</label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-4 align-self-center">
+                            <i class="bi bi-facebook pe-4"></i>
+                            <i class="bi bi-instagram pe-4"></i>
+                            <i class="bi bi-pinterest pe-4"></i>
+                            <i class="bi bi-twitter pe-4"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <nav class="navbar navbar-expand-lg navbar-dark position-absolute w-100">
+                <div class="container wow animate__animated animate__fadeInUp">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse font-monospace text-uppercase" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item border-end border-warning px-2">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item border-end border-warning px-2">
+                                <a class="nav-link" href="#maisVendidos">Mais vendidios</a>
+                            </li>
+                            <li class="nav-item border-end border-warning px-2">
+                                <a class="nav-link" href="#promocao">Promoções</a>
+                            </li>
+                            <li class="nav-item border-end border-warning px-2">
+                                <a class="nav-link" href="#novidades">Novidades</a>
+                            </li>
+                            <li class="nav-item border-end border-warning px-2">
+                                <a class="nav-link" href="#fotos">Galeria</a>
+                            </li>
+                            <li class="nav-item px-2">
+                                <a class="nav-link" href="#contato">Contato</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <section id="carousel">
+                <div id="carouselExampleCaptions" class="carousel slide carousel-fade position-relative top-0" data-bs-ride="carousel" data-bs-touch="false" data-bs-interval="false">
+                    <div class="carousel-indicators d-none d-md-flex">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="5000">
+                            <img src="img/slide1.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption mb-5">
+                                <h5>Bem vindo a Cristal Joalheria</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ex dolores.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="img/slide2.jpg" class="d-block w-100" alt="..." id="anel">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Bem vindo a Cristal Joalheria</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ex dolores.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="img/slide3.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Bem vindo a Cristal Joalheria</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ex dolores.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="img/slide4.jpg" class=" img-fluid d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Bem vindo a Cristal Joalheria</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ex dolores.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="5000">
+                            <img src="img/slide5.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Bem vindo a Cristal Joalheria</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ex dolores.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        <main>
+            <!-- BOTÃO PARA VOLTAR AO TOPO -->
+            <button type="button" class="btn-floating btn-lg d-none d-md-block" id="btn-back-to-top">
+                <i class="bi bi-arrow-up-circle-fill fs-4"></i>
+            </button>
+
+
+            <section id="best-sellers">
+                <div class="container mt-5" data-bs-spy="scroll">
+                    <h1 class="fw-bolder mb-3 wow animate__animated animate__fadeInDown" id="maisVendidos">Mais Vendidos</h2>
+                    <div class="row text-center g-1 text-white">
+                        <div class="col-12 col-md-6 mb-3 mb-lg-0 col-lg-3 wow animate__animated animate__fadeInLeft">
+                            <article class="card h-100">
+                                <img src="img/bs1.jpg" class="card-img-top zoom" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title py-1">Brinco</h5>
+                                    <p class="card-text py-1 fw-bold fs-5">R$ 129,90</p>
+                                    <a href="#!" class="btn">Comprar agora</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-12 col-md-6 mb-3 mb-lg-0 col-lg-3 wow animate__animated animate__fadeInLeft">
+                            <article class="card h-100">
+                                <img src="img/bs2.jpg" class="card-img-top zoom" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title py-1">Anel</h5>
+                                    <p class="card-text py-1 fw-bold fs-5">R$ 129,90</p>
+                                    <a href="#!" class="btn">Comprar agora</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-12 col-md-6 mb-3 mb-lg-0 col-lg-3 wow animate__animated animate__fadeInRight">
+                            <article class="card h-100">
+                                <img src="img/bs3.jpg" class="card-img-top zoom" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title py-1">Colar</h5>
+                                    <p class="card-text py-1 fw-bold fs-5">R$ 129,90</p>
+                                    <a href="#!" class="btn">Comprar agora</a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-12 col-md-6 mb-3 mb-lg-0 col-lg-3 wow animate__animated animate__fadeInRight">
+                            <article class="card h-100">
+                                <img src="img/bs4.jpg" class="card-img-top zoom" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title py-1">Pulseira</h5>
+                                    <p class="card-text py-1 fw-bold fs-5">R$ 129,90</p>
+                                    <a href="#!" class="btn">Comprar agora</a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="destaque">
+                <div class="container-fluid mt-5 wow animate__animated animate__fadeInUp" data-bs-spy="scroll">
+                    <div class="row">
+                        <div class="col-12 col-md-7 py-5 text-center text-white align-self-center">
+                            <p class="fs-3 text-uppercase" id="promocao">Desconto de até 30%</p>
+                            <h2 class="fw-bolder fs-1 text-uppercase">Coleção Especial</h2>
+                            <p class="fs-2">O presente perfeito!</p>
+                            <a href="#!" class="btn fw-bold">Comprar agora</a>
+                        </div>
+                        <div class="col-12 col-md-5 align-self-center p-0 pe-md-5">
+                            <img src="img/gift.jpg" alt="" class="img-fluid w-100 zoom">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="new">
+                <div class="container mt-5 mb-5" data-bs-spy="scroll">
+                    <h2 class="mb-3 text-uppercase fw-bold wow animate__animated animate__fadeInUp" id="novidades">Novidades</h2>
+                    <div class="row g-0">
+                        <div class="col-12 col-md-3 d-none d-md-flex text-white justify-content-center wow animate__animated animate__fadeInLeft">
+                            <div class="align-self-center">
+                                <h2>A melhor <br> <span>joalheria</span> <br> pelos menores <br> <span>preços</span></h2>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-9 text-white wow animate__animated animate__fadeInRight">
+                            <div class="row g-0">
+                                <div class="col-12 col-md-4 mb-3 mb-md-0">
+                                    <article class="card h-100 text-center">
+                                        <img src="img/new1.jpg" class="card-img-top img-fluid w-100 zoom" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title py-1">Brico</h5>
+                                            <p class="card-text py-1 fw-bold fs-5">R$ 129,90</p>
+                                            <a href="#!" class="btn">Comprar agora</a>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col-12 col-md-4 mb-3 mb-md-0">
+                                    <article class="card h-100 text-center">
+                                        <img src="img/new2.jpg" class="card-img-top img-fluid w-100 zoom" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title py-1">Anel</h5>
+                                            <p class="card-text py-1 fw-bold fs-5">R$ 129,90</p>
+                                            <a href="#!" class="btn">Comprar agora</a>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col-12 col-md-4 mb-3 mb-md-0">
+                                    <article class="card h-100 text-center">
+                                        <img src="img/new3.jpg" class="card-img-top img-fluid w-100 zoom" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title py-1">Colar</h5>
+                                            <p class="card-text py-1 fw-bold fs-5">R$ 129,90</p>
+                                            <a href="#!" class="btn">Comprar agora</a>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col-12 col-md-4 mb-3 mb-md-0">
+                                    <article class="card h-100 text-center">
+                                        <img src="img/new4.jpg" class="card-img-top img-fluid w-100 zoom" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title py-1">Pulseira</h5>
+                                            <p class="card-text py-1 fw-bold fs-5">R$ 129,90</p>
+                                            <a href="#!" class="btn">Comprar agora</a>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col-12 col-md-4 mb-3 mb-md-0">
+                                    <article class="card h-100 text-center">
+                                        <img src="img/new5.jpg" class="card-img-top img-fluid w-100 zoom" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title py-1">Anel</h5>
+                                            <p class="card-text py-1 fw-bold fs-5">R$ 129,90</p>
+                                            <a href="#!" class="btn">Comprar agora</a>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col-12 col-md-4 mb-3 mb-md-0">
+                                    <article class="card h-100 text-center">
+                                        <img src="img/new6.jpg" class="card-img-top img-fluid w-100 zoom" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title py-1">Pingente</h5>
+                                            <p class="card-text py-1 fw-bold fs-5">R$ 129,90</p>
+                                            <a href="#!" class="btn">Comprar agora</a>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="gallery">
+                <div class="container-fluid" data-bs-spy="scroll">
+                    <h2 class="text-center">Conheça mais Produtos</h2>
+                    <hr class="mb-3 text-warning">
+                    <div class="row justify-content-around wow animate__animated animate__fadeInUp" id="fotos">
+                        <article class="col-6 col-md-2 mb-2 px-0">
+                            <img src="img/gallery-1.jpg" alt="" class="img-fluid w-100 zoom">
+                        </article>
+                        <article class="col-6 col-md-2 mb-2 px-0">
+                            <img src="img/gallery-2.jpg" alt="" class="img-fluid w-100 zoom">
+                        </article>
+                        <article class="col-6 col-md-2 mb-2 px-0">
+                            <img src="img/gallery-3.jpg" alt="" class="img-fluid w-100 zoom">
+                        </article>
+                        <article class="col-6 col-md-2 mb-2 px-0">
+                            <img src="img/gallery-4.jpg" alt="" class="img-fluid w-100 zoom">
+                        </article>
+                        <article class="col-6 col-md-2 mb-2 px-0">
+                            <img src="img/gallery-5.jpg" alt="" class="img-fluid w-100 zoom">
+                        </article>
+                        <article class="col-6 col-md-2 mb-2 px-0">
+                            <img src="img/gallery-6.jpg" alt="" class="img-fluid w-100 zoom">
+                        </article>
+                        <article class="col-6 col-md-2 mb-2 px-0">
+                            <img src="img/gallery-7.jpg" alt="" class="img-fluid w-100 zoom">
+                        </article>
+                        <article class="col-6 col-md-2 mb-2 px-0">
+                            <img src="img/gallery-8.jpg" alt="" class="img-fluid w-100 zoom">
+                        </article>
+                        <article class="col-6 col-md-2 mb-2 px-0">
+                            <img src="img/gallery-9.jpg" alt="" class="img-fluid w-100 zoom">
+                        </article>
+                        <article class="col-6 col-md-2 mb-2 px-0">
+                            <img src="img/gallery-10.jpg" alt="" class="img-fluid w-100 zoom">
+                        </article>
+                        <article class="col-6 col-md-2 mb-2 px-0">
+                            <img src="img/gallery-11.jpg" alt="" class="img-fluid w-100 zoom">
+                        </article>
+                        <article class="col-6 col-md-2 mb-2 px-0">
+                            <img src="img/gallery-12.jpg" alt="" class="img-fluid w-100 zoom">
+                        </article>
+                        <article class="col-6 col-md-2 mb-2 px-0">
+                            <img src="img/gallery-13.jpg" alt="" class="img-fluid w-100 zoom">
+                        </article>
+                        <article class="col-6 col-md-2 mb-2 px-0">
+                            <img src="img/gallery-14.jpg" alt="" class="img-fluid w-100 zoom">
+                        </article>
+                        <article class="col-6 col-md-2 mb-2 px-0">
+                            <img src="img/gallery-15.jpg" alt="" class="img-fluid w-100 zoom">
+                        </article>
+                        <article class="col-6 col-md-2 mb-2 px-0">
+                            <img src="img/gallery-16.jpg" alt="" class="img-fluid w-100 zoom">
+                        </article>
+                        <article class="col-6 col-md-2 mb-2 px-0">
+                            <img src="img/gallery-17.jpg" alt="" class="img-fluid w-100 zoom">
+                        </article>
+                        <article class="col-6 col-md-2 mb-2 px-0">
+                            <img src="img/gallery-18.jpg" alt="" class="img-fluid w-100 zoom">
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section id="info">
+                <div class="container-fluid mt-5 wow animate__animated animate__fadeInUp" data-bs-spy="scroll">
+                    <div class="row text-center text-white align-items-center" id="contato">
+                        <div class="col-12 col-md-4 align-self-center">
+                            <h4 class="text-uppercase mb-3 mt-4">Informações</h4>
+                            <ul class="list-unstyled">
+                                <li class="text-uppercase">
+                                    Política de privacidade
+                                </li>
+                                <li class="text-uppercase">
+                                    Política de entregas
+                                </li>
+                                <li class="text-uppercase">
+                                    Rastreie seu pedido
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-md-4 align-self-center border-start border-end border-light">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.125692576676!2d-46.70145168556803!3d-22.611781033094243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c91870abdf08f3%3A0x767181e4a98b9ccf!2sR.%20Cel.%20Pedro%20Penteado%20-%20Est%C3%A2ncia%20Su%C3%AD%C3%A7a%2C%20Serra%20Negra%20-%20SP%2C%2013930-000!5e0!3m2!1spt-BR!2sbr!4v1637103301224!5m2!1spt-BR!2sbr" class="w-100 px-0 py-0" height="300" allowfullscreen="" loading="lazy"></iframe>
+                        </div>
+                        <div class="col-12 col-md-4 text-uppercase align-self-center">
+                            <h4 class="mb-2 mt-4">Alguma dúvida ?</h4>
+                            <h5 class="mb-3">Entre em contato</h5>
+                            <h2 class="fw-bold">
+                                <i class="bi bi-telephone pe-2"></i>(19) 96025-9857
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="newsletter">
+                <div class="container-fluid wow animate__animated animate__fadeInUp">
+                    <div class="row py-5 justify-content-center">
+                        <aside class="col-12 col-md-6 align-self-center text-center">
+                            <p class="text-muted mb-5">Se inscreva na nossa newsletter:</p>
+                            <div class="input-group mb-5 position-relative text-white">
+                                <input type="text" class="form-control text-white" placeholder="Insira seu email">
+                                <button type="button" class="btn btn-outline-primary position-absolute d-flex" id="send"><i class="bi bi-envelope me-1 align-self-center"></i> <span class="align-self-center">Enviar</span></button>
+                            </div>
+                            <div class="icons fs-4">
+                                <i class="bi bi-facebook pe-4"></i>
+                                <i class="bi bi-instagram pe-4"></i>
+                                <i class="bi bi-youtube pe-4"></i>
+                                <i class="bi bi-twitter"></i>
+                            </div>
+                        </aside>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="container-fluid">
+                <div class="row py-5 text-center text-white">
+                    <div class="col-12 alig-self-center">
+                        <p>Todos os direitos reservados @2021 <span>Cristal Joalheria</span></p>
+                        <p>Imagens da demo: <a href="https://www.pexels.com/pt-br/" target="_blank">pexels.com</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SCRIPTS -->
+
+            <!-- JQUERY -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>        
+            <!-- BOOTSTRAP JS -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+            <!-- WOW JS -->
+            <script src="js/WOW/wow.min.js"></script>
+            <!-- ZOOMSL -->
+            <script src="/js/zoomsl/zoomsl-3.0.min.js"></script>
+            <!-- MAIN JS -->
+            <script src="/js/main.js"></script>
+        </footer>
+    </body>
+</html>
